@@ -65,6 +65,11 @@
         <name>tipoidfiscal</name>
         <type>character varying(25)</type>
     </column>
+    <column>
+        <name>vendedor</name>
+        <type>boolean</type>
+        <defaul>true</defaul>
+    </column>
     <constraint>
         <name>agentes_pkey</name>
         <type>PRIMARY KEY (codagente)</type>

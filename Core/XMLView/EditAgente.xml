@@ -57,6 +57,9 @@
             <column name="date-of-suspension" numcolumns="3" order="130">
                 <widget type="date" fieldname="fechabaja" />
             </column>
+            <column name="Vendedor" numcolumns="3" order="130">
+                <widget type="checkbox" fieldname="vendedor" />
+            </column>
             <column name="observations" numcolumns="12" order="140">
                 <widget type="textarea" fieldname="observaciones" />
             </column>
@@ -66,5 +69,5 @@
         <row type="statistics">
             <datalabel icon="fas fa-money-bill-alt" label="pending-invoices-button" function="calcAgentInvoicePending" />
         </row>
-    </rows>    
+    </rows>
 </view>
